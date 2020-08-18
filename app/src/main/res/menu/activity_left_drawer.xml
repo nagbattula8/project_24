@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/ic_user"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/add_marker"
+            android:icon="@drawable/ic_user"
+            android:title="Add your area" />
+
+
+
+    </group>
+
+    <group>
+
+        <item android:title="Help">
+            <menu>
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/ic_question_mark"
+                    android:title="Faq" />
+
+                <item
+                    android:id="@+id/nav_customer_support"
+                    android:icon="@drawable/ic_24_hours_support"
+                    android:title="Customer Support" />
+
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@drawable/ic_24_hours_support"
+                    android:title="Contact Us" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_businessman_talking_about_data_analysis"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_logout_login"
+                android:icon="@drawable/ic_logout"
+                android:title="LOGOUT"/>
+        </menu>
+    </item>
+
+    <item android:title="Powered by">
+        <menu>
+            <item
+                android:id="@+id/powered_by"
+                android:icon="@drawable/ic_alltronics_logo"
+                android:title="Alltronics Technologies Ltd." />
+
+        </menu>
+    </item>
+
+
+    <item
+        android:title="@string/disclaim">
+        <menu>
+            <item android:title="Why?"
+                android:icon="@drawable/ic_question"
+                android:id="@+id/why"/>
+
+        </menu>
+    </item>
+
+</menu>

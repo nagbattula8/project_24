@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613715938919",
+    "project_id": "project-24-1a3aa"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613715938919:android:0585d51fbcbdc974",
+        "android_client_info": {
+          "package_name": "com.user.alltronics.locate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613715938919-aabi4popjkh3o7ioqoirkpfltnp56ums.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "613715938919-saf2kolqgt8qhcpvroquujgu75gud1an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.user.alltronics.locate",
+            "certificate_hash": "f57682baa989e70d768bd9abc2cf8d20683bcf1a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdXWHgWHowZAHc0ehxX3AzlqWuMhxjej4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

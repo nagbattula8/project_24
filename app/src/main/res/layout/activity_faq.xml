@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="20.0dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/faq_question_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_1" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_1" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_question_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_2" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_2" >
+                <requestFocus />
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/faq_question_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_3" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_3" >
+                <requestFocus />
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/faq_question_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_4" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_4" >
+                <requestFocus />
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/faq_question_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_5" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_5" >
+                <requestFocus />
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/faq_question_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_6" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_6" >
+                <requestFocus />
+            </TextView>
+
+
+
+            <!-- <TextView
+                android:id="@+id/faq_question_65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_65" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_65" >
+                <requestFocus />
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/faq_question_66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_66" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_66" >
+                <requestFocus />
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/faq_question_67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_67" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_67" >
+                <requestFocus />
+            </TextView>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/faq_question_70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:textSize="@dimen/faq_q"
+                android:textStyle="bold"
+                android:text="@string/faq_question_70" >
+                <requestFocus />
+            </TextView>
+
+            <TextView
+                android:id="@+id/faq_answer_70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textSize="@dimen/faq_a"
+                android:text="@string/faq_answer_70" >
+                <requestFocus />
+            </TextView> -->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_80"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_80" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_80"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_80" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_85"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_85" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_85"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_85" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_90"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_90" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_90"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_90" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_100"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_100" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_100"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_100" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_105"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_105" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_105"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_105" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_question_110"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20.0dip"-->
+            <!--android:textSize="@dimen/faq_q"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/faq_question_110" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/faq_answer_110"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:autoLink="web"-->
+            <!--android:textSize="@dimen/faq_a"-->
+            <!--android:text="@string/faq_answer_110" >-->
+            <!--<requestFocus />-->
+            <!--</TextView>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

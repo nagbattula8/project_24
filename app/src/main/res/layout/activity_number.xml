@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.user.alltronics.locate.NumberActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/about_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pro24app@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/about_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit us: http://alltronics.in/"
+            android:autoLink="web"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColorLink="@color/bg_main"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
